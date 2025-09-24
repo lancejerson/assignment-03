@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "name": "assignment-03",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon /scripts/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancejerson/assignment-03.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lancejerson/assignment-03/issues"
+  },
+  "homepage": "https://github.com/lancejerson/assignment-03#readme",
+  "keywords": [],
+  "type": "module"
+}

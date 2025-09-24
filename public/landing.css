@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.first-section header{
+    height: 600px;
+    width: 100%;
+    min-height: 85vh;
+    background-image: url("./images/header-more-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.first-header-nav{
+    transform: translateX(-50%); /* Adjust back by half its own width */
+    top: 20px; /* Adjust as needed */
+    left: 50%; /* Move it to the center */
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 35px;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    position: FIXED;
+    z-index: 1000;
+    pointer-events: auto;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.mid-header-nav{
+    background-color: rgb(37, 37, 37);
+    border-radius: 50px;
+}
+
+.mid-header-nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 10px 30px;
+    
+}
+
+.mid-header-nav li{
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.mid-header-nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.right-header-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    color: black;
+}
+
+.right-header-nav li{
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.right-header-nav i{
+    color: black;
+}
+
+
+
+/* hover and active effects */
+
+.mid-header-nav li:hover{
+    transform: scale(1.2);
+    opacity: 0.6;
+}
+
+.right-header-nav li:hover{
+    transform: scale(1.6);
+    opacity: 0.6;
+}
+
+/* hover and active effects end */
+
+/* second section */
+.random-section{
+    height: 20vh;
+    width: 100%;
+}
+
+.random-section h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 45px;
+    font-weight: 300;
+}
+
+.second-section{
+    height: 100vh;
+    width: 100%;
+}
+
+.container-one{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.container-two{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.9;
+}
+
+.container-two img{
+    height: 50%;
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease-out;
+}
+
+.container-two h3{
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.container-two p{
+    font-weight: 300;
+}
+
+.container-three{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.9;
+}
+
+.container-three img{
+    height: 50%;
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease-out;
+}
+
+.container-three h3{
+    font-weight: 300;
+    margin-top: 10px;
+}
+    
+.container-three p{
+    font-weight: 300;
+}
+
+.building-one{
+    transition: all ease 0.3s;
+}
+
+.building-two{
+    transition: all ease 0.3s;
+}
+
+.building-three{
+    transition: all ease 0.3s;
+}
+
+.building-four{
+    transition: all ease 0.3s;
+}
+
+.building-five{
+    transition: all ease 0.3s;
+}
+
+.building-six{
+    transition: all ease 0.3s;
+}
+
+/* hover effects */
+
+.building-one:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.building-two:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.building-three:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.building-four:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.building-five:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.building-six:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* section-two ends */
+
+footer{
+    background-color: rgba(14, 14, 14, 0.5);
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.footer li{
+    transition: transform 0.3s ease-out;
+}
+
+.right-header-nav i{
+    color: rgb(255, 255, 255);
+}
+
+/* hover effects */
+.footer li:hover{
+    transform: scale(1.6);
+    opacity: 0.6;
+}
