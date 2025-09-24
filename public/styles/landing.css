@@ -15,7 +15,7 @@ body{
     height: 600px;
     width: 100%;
     min-height: 85vh;
-    background-image: url("./images/header-more-header.jpg");
+    background-image: url("../images/header-more-header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

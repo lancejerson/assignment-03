@@ -65,7 +65,7 @@ app.post("/login", (req, res) => {
   const { email, password } = req.body;
 
   if (!email || !password) {
-    return res.send("Email and password are required");
+    return res.send("Email or password are required");
   }
 
   const user = users[email];
